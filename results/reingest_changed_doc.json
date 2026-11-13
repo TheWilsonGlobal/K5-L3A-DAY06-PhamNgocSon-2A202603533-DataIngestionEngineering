@@ -1,0 +1,9 @@
+{
+  "v1_chunks": 33,
+  "count_after_v1": 33,
+  "v2_chunks": 33,
+  "count_after_v2": 33,
+  "obsolete_chunk_ids": 1,
+  "obsolete_left_in_db": 0,
+  "stale_deleted_reported": 1
+}

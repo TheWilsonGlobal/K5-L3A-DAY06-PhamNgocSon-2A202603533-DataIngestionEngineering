@@ -1,0 +1,1532 @@
+{
+  "max_seq_length": 128,
+  "truncated_chunks": {
+    "A": {
+      "over_limit": 20,
+      "total": 319,
+      "max_tokens": 139
+    },
+    "B": {
+      "over_limit": 135,
+      "total": 242,
+      "max_tokens": 205
+    }
+  },
+  "per_question": [
+    {
+      "id": "d01",
+      "split": "dev",
+      "gold_page": 253,
+      "A": {
+        "top3_pages": [
+          253,
+          251,
+          272
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "B": {
+        "top3_pages": [
+          253,
+          253,
+          251
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "C": {
+        "top3_pages": [
+          253,
+          253,
+          251
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      }
+    },
+    {
+      "id": "d02",
+      "split": "dev",
+      "gold_page": 253,
+      "A": {
+        "top3_pages": [
+          253,
+          293,
+          253
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "B": {
+        "top3_pages": [
+          253,
+          253,
+          293
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "C": {
+        "top3_pages": [
+          253,
+          253,
+          293
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      }
+    },
+    {
+      "id": "d03",
+      "split": "dev",
+      "gold_page": 259,
+      "A": {
+        "top3_pages": [
+          270,
+          259,
+          259
+        ],
+        "hit1": false,
+        "hit3": false,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "B": {
+        "top3_pages": [
+          277,
+          259,
+          259
+        ],
+        "hit1": false,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "C": {
+        "top3_pages": [
+          277,
+          259,
+          259
+        ],
+        "hit1": false,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      }
+    },
+    {
+      "id": "d04",
+      "split": "dev",
+      "gold_page": 259,
+      "A": {
+        "top3_pages": [
+          259,
+          285,
+          259
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "B": {
+        "top3_pages": [
+          261,
+          259,
+          259
+        ],
+        "hit1": false,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "C": {
+        "top3_pages": [
+          261,
+          259,
+          259
+        ],
+        "hit1": false,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      }
+    },
+    {
+      "id": "d05",
+      "split": "dev",
+      "gold_page": 271,
+      "A": {
+        "top3_pages": [
+          271,
+          271,
+          254
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "B": {
+        "top3_pages": [
+          271,
+          271,
+          272
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "C": {
+        "top3_pages": [
+          271,
+          271,
+          272
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      }
+    },
+    {
+      "id": "d06",
+      "split": "dev",
+      "gold_page": 275,
+      "A": {
+        "top3_pages": [
+          271,
+          275,
+          278
+        ],
+        "hit1": false,
+        "hit3": false,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "B": {
+        "top3_pages": [
+          275,
+          272,
+          271
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "C": {
+        "top3_pages": [
+          275,
+          272,
+          271
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      }
+    },
+    {
+      "id": "d07",
+      "split": "dev",
+      "gold_page": 275,
+      "A": {
+        "top3_pages": [
+          272,
+          275,
+          254
+        ],
+        "hit1": false,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "B": {
+        "top3_pages": [
+          272,
+          275,
+          272
+        ],
+        "hit1": false,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "C": {
+        "top3_pages": [
+          272,
+          275,
+          272
+        ],
+        "hit1": false,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      }
+    },
+    {
+      "id": "d08",
+      "split": "dev",
+      "gold_page": 279,
+      "A": {
+        "top3_pages": [
+          279,
+          279,
+          277
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "B": {
+        "top3_pages": [
+          279,
+          283,
+          278
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "C": {
+        "top3_pages": [
+          279,
+          283,
+          278
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      }
+    },
+    {
+      "id": "d09",
+      "split": "dev",
+      "gold_page": 279,
+      "A": {
+        "top3_pages": [
+          279,
+          279,
+          282
+        ],
+        "hit1": false,
+        "hit3": false,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "B": {
+        "top3_pages": [
+          279,
+          279,
+          268
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "C": {
+        "top3_pages": [
+          279,
+          279,
+          282
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      }
+    },
+    {
+      "id": "d10",
+      "split": "dev",
+      "gold_page": 285,
+      "A": {
+        "top3_pages": [
+          286,
+          285,
+          286
+        ],
+        "hit1": false,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "B": {
+        "top3_pages": [
+          285,
+          286,
+          287
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "C": {
+        "top3_pages": [
+          285,
+          286,
+          287
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      }
+    },
+    {
+      "id": "d11",
+      "split": "dev",
+      "gold_page": 287,
+      "A": {
+        "top3_pages": [
+          287,
+          284,
+          287
+        ],
+        "hit1": false,
+        "hit3": false,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "B": {
+        "top3_pages": [
+          287,
+          287,
+          288
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "C": {
+        "top3_pages": [
+          287,
+          287,
+          288
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      }
+    },
+    {
+      "id": "d12",
+      "split": "dev",
+      "gold_page": 289,
+      "A": {
+        "top3_pages": [
+          289,
+          289,
+          289
+        ],
+        "hit1": false,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "B": {
+        "top3_pages": [
+          289,
+          289,
+          289
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "C": {
+        "top3_pages": [
+          289,
+          289,
+          289
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      }
+    },
+    {
+      "id": "d13",
+      "split": "dev",
+      "gold_page": 267,
+      "A": {
+        "top3_pages": [
+          266,
+          266,
+          267
+        ],
+        "hit1": false,
+        "hit3": false,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "B": {
+        "top3_pages": [
+          266,
+          267,
+          267
+        ],
+        "hit1": false,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "C": {
+        "top3_pages": [
+          266,
+          267,
+          267
+        ],
+        "hit1": false,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      }
+    },
+    {
+      "id": "d14",
+      "split": "dev",
+      "gold_page": 251,
+      "A": {
+        "top3_pages": [
+          252,
+          293,
+          263
+        ],
+        "hit1": false,
+        "hit3": false,
+        "split_evidence": false,
+        "gold_page_in_top3": false
+      },
+      "B": {
+        "top3_pages": [
+          251,
+          293,
+          252
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "C": {
+        "top3_pages": [
+          251,
+          293,
+          252
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      }
+    },
+    {
+      "id": "d15",
+      "split": "dev",
+      "gold_page": 252,
+      "A": {
+        "top3_pages": [
+          263,
+          263,
+          264
+        ],
+        "hit1": false,
+        "hit3": false,
+        "split_evidence": false,
+        "gold_page_in_top3": false
+      },
+      "B": {
+        "top3_pages": [
+          263,
+          264,
+          264
+        ],
+        "hit1": false,
+        "hit3": false,
+        "split_evidence": false,
+        "gold_page_in_top3": false
+      },
+      "C": {
+        "top3_pages": [
+          263,
+          264,
+          264
+        ],
+        "hit1": false,
+        "hit3": false,
+        "split_evidence": false,
+        "gold_page_in_top3": false
+      }
+    },
+    {
+      "id": "d16",
+      "split": "dev",
+      "gold_page": 293,
+      "A": {
+        "top3_pages": [
+          283,
+          283,
+          264
+        ],
+        "hit1": false,
+        "hit3": false,
+        "split_evidence": false,
+        "gold_page_in_top3": false
+      },
+      "B": {
+        "top3_pages": [
+          283,
+          283,
+          264
+        ],
+        "hit1": false,
+        "hit3": false,
+        "split_evidence": false,
+        "gold_page_in_top3": false
+      },
+      "C": {
+        "top3_pages": [
+          283,
+          283,
+          264
+        ],
+        "hit1": false,
+        "hit3": false,
+        "split_evidence": false,
+        "gold_page_in_top3": false
+      }
+    },
+    {
+      "id": "t01",
+      "split": "test",
+      "gold_page": 273,
+      "A": {
+        "top3_pages": [
+          273,
+          277,
+          267
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "B": {
+        "top3_pages": [
+          273,
+          277,
+          258
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "C": {
+        "top3_pages": [
+          273,
+          277,
+          258
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      }
+    },
+    {
+      "id": "t02",
+      "split": "test",
+      "gold_page": 283,
+      "A": {
+        "top3_pages": [
+          283,
+          283,
+          284
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "B": {
+        "top3_pages": [
+          284,
+          292,
+          283
+        ],
+        "hit1": false,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "C": {
+        "top3_pages": [
+          283,
+          277,
+          283
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      }
+    },
+    {
+      "id": "t03",
+      "split": "test",
+      "gold_page": 261,
+      "A": {
+        "top3_pages": [
+          261,
+          260,
+          255
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "B": {
+        "top3_pages": [
+          261,
+          260,
+          261
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "C": {
+        "top3_pages": [
+          261,
+          260,
+          261
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      }
+    },
+    {
+      "id": "t04",
+      "split": "test",
+      "gold_page": 291,
+      "A": {
+        "top3_pages": [
+          289,
+          289,
+          291
+        ],
+        "hit1": false,
+        "hit3": false,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "B": {
+        "top3_pages": [
+          289,
+          289,
+          291
+        ],
+        "hit1": false,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "C": {
+        "top3_pages": [
+          289,
+          289,
+          291
+        ],
+        "hit1": false,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      }
+    },
+    {
+      "id": "t05",
+      "split": "test",
+      "gold_page": 257,
+      "A": {
+        "top3_pages": [
+          257,
+          256,
+          254
+        ],
+        "hit1": true,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "B": {
+        "top3_pages": [
+          257,
+          257,
+          257
+        ],
+        "hit1": false,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "C": {
+        "top3_pages": [
+          257,
+          257,
+          257
+        ],
+        "hit1": false,
+        "hit3": true,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      }
+    },
+    {
+      "id": "t06",
+      "split": "test",
+      "gold_page": 270,
+      "A": {
+        "top3_pages": [
+          256,
+          270,
+          270
+        ],
+        "hit1": false,
+        "hit3": false,
+        "split_evidence": false,
+        "gold_page_in_top3": true
+      },
+      "B": {
+        "top3_pages": [
+          278,
+          276,
+          254
+        ],
+        "hit1": false,
+        "hit3": false,
+        "split_evidence": false,
+        "gold_page_in_top3": false
+      },
+      "C": {
+        "top3_pages": [
+          278,
+          276,
+          254
+        ],
+        "hit1": false,
+        "hit3": false,
+        "split_evidence": false,
+        "gold_page_in_top3": false
+      }
+    }
+  ],
+  "metadata_audit": [
+    {
+      "strategy": "A",
+      "qid": "t01",
+      "rank": 1,
+      "chunk_id": "A-p273-900-c2eea42e4e424b15",
+      "page": 273,
+      "section": "6.3",
+      "true_section": "6.3",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "A",
+      "qid": "t01",
+      "rank": 2,
+      "chunk_id": "A-p277-0-a59fc2046a72415a",
+      "page": 277,
+      "section": "6.4",
+      "true_section": "6.3",
+      "ok": false,
+      "errors": "section label 6.4 but chunk content lies in 6.3"
+    },
+    {
+      "strategy": "A",
+      "qid": "t01",
+      "rank": 3,
+      "chunk_id": "A-p267-3150-da4b655f798fe575",
+      "page": 267,
+      "section": "6.3",
+      "true_section": "6.3",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "A",
+      "qid": "t02",
+      "rank": 1,
+      "chunk_id": "A-p283-1800-b7949d36047689eb",
+      "page": 283,
+      "section": "6.4",
+      "true_section": "6.4",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "A",
+      "qid": "t02",
+      "rank": 2,
+      "chunk_id": "A-p283-2250-067d82702a00857d",
+      "page": 283,
+      "section": "6.4",
+      "true_section": "6.4",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "A",
+      "qid": "t02",
+      "rank": 3,
+      "chunk_id": "A-p284-0-4c4dd10c447a1f1b",
+      "page": 284,
+      "section": "6.5",
+      "true_section": "6.4",
+      "ok": false,
+      "errors": "section label 6.5 but chunk content lies in 6.4"
+    },
+    {
+      "strategy": "A",
+      "qid": "t03",
+      "rank": 1,
+      "chunk_id": "A-p261-1800-6844f1ca9497d776",
+      "page": 261,
+      "section": "6.2",
+      "true_section": "6.2",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "A",
+      "qid": "t03",
+      "rank": 2,
+      "chunk_id": "A-p260-450-7d5e207d197ab4f7",
+      "page": 260,
+      "section": "6.2",
+      "true_section": "6.2",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "A",
+      "qid": "t03",
+      "rank": 3,
+      "chunk_id": "A-p255-1800-832a9b8817e5dd68",
+      "page": 255,
+      "section": "6.1",
+      "true_section": "6.1",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "A",
+      "qid": "t04",
+      "rank": 1,
+      "chunk_id": "A-p289-2700-f4834cd33c00b790",
+      "page": 289,
+      "section": "6.6",
+      "true_section": "6.6",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "A",
+      "qid": "t04",
+      "rank": 2,
+      "chunk_id": "A-p289-2250-e3b4af686f0b56d3",
+      "page": 289,
+      "section": "6.6",
+      "true_section": "6.6",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "A",
+      "qid": "t04",
+      "rank": 3,
+      "chunk_id": "A-p291-0-3eab7d95d43173a5",
+      "page": 291,
+      "section": "6.6",
+      "true_section": "6.6",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "A",
+      "qid": "t05",
+      "rank": 1,
+      "chunk_id": "A-p257-900-d7cd71588c0cf20a",
+      "page": 257,
+      "section": "6.2",
+      "true_section": "6.2",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "A",
+      "qid": "t05",
+      "rank": 2,
+      "chunk_id": "A-p256-2250-ea041dc9cba4ea51",
+      "page": 256,
+      "section": "6.2",
+      "true_section": "6.2",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "A",
+      "qid": "t05",
+      "rank": 3,
+      "chunk_id": "A-p254-0-fd5e364e2b9b67eb",
+      "page": 254,
+      "section": "6.1",
+      "true_section": "6.1",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "B",
+      "qid": "t01",
+      "rank": 1,
+      "chunk_id": "B-p273-1078-efd82740d4cf1cb7",
+      "page": 273,
+      "section": "6.3",
+      "true_section": "6.3",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "B",
+      "qid": "t01",
+      "rank": 2,
+      "chunk_id": "B-p277-0-6fb90ed9ce7e8cb5",
+      "page": 277,
+      "section": "6.4",
+      "true_section": "6.3",
+      "ok": false,
+      "errors": "section label 6.4 but chunk content lies in 6.3"
+    },
+    {
+      "strategy": "B",
+      "qid": "t01",
+      "rank": 3,
+      "chunk_id": "B-p258-1069-95824b1ac5219a68",
+      "page": 258,
+      "section": "6.2",
+      "true_section": "6.2",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "B",
+      "qid": "t02",
+      "rank": 1,
+      "chunk_id": "B-p284-0-a38a519ec23798da",
+      "page": 284,
+      "section": "6.5",
+      "true_section": "6.4",
+      "ok": false,
+      "errors": "section label 6.5 but chunk content lies in 6.4"
+    },
+    {
+      "strategy": "B",
+      "qid": "t02",
+      "rank": 2,
+      "chunk_id": "B-p292-1246-29398310c5399c39",
+      "page": 292,
+      "section": "6.6",
+      "true_section": "6.6",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "B",
+      "qid": "t02",
+      "rank": 3,
+      "chunk_id": "B-p283-1991-6e60eefc7c0f0500",
+      "page": 283,
+      "section": "6.4",
+      "true_section": "6.4",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "B",
+      "qid": "t03",
+      "rank": 1,
+      "chunk_id": "B-p261-1553-eb8091341005c36b",
+      "page": 261,
+      "section": "6.2",
+      "true_section": "6.2",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "B",
+      "qid": "t03",
+      "rank": 2,
+      "chunk_id": "B-p260-472-bdb8a119ebefbac1",
+      "page": 260,
+      "section": "6.2",
+      "true_section": "6.2",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "B",
+      "qid": "t03",
+      "rank": 3,
+      "chunk_id": "B-p261-3097-170aa35d659975f4",
+      "page": 261,
+      "section": "6.2",
+      "true_section": "6.2",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "B",
+      "qid": "t04",
+      "rank": 1,
+      "chunk_id": "B-p289-1881-e937760ba9392a3b",
+      "page": 289,
+      "section": "6.6",
+      "true_section": "6.6",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "B",
+      "qid": "t04",
+      "rank": 2,
+      "chunk_id": "B-p289-2587-204d6e3035dea245",
+      "page": 289,
+      "section": "6.6",
+      "true_section": "6.6",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "B",
+      "qid": "t04",
+      "rank": 3,
+      "chunk_id": "B-p291-0-2f433c2a915fd4ed",
+      "page": 291,
+      "section": "6.6",
+      "true_section": "6.6",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "B",
+      "qid": "t05",
+      "rank": 1,
+      "chunk_id": "B-p257-1179-48863a5123592e26",
+      "page": 257,
+      "section": "6.2",
+      "true_section": "6.2",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "B",
+      "qid": "t05",
+      "rank": 2,
+      "chunk_id": "B-p257-385-c51e61cc62ce0766",
+      "page": 257,
+      "section": "6.2",
+      "true_section": "6.2",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "B",
+      "qid": "t05",
+      "rank": 3,
+      "chunk_id": "B-p257-0-875341e6502cca6f",
+      "page": 257,
+      "section": "6.2",
+      "true_section": "6.2",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "C",
+      "qid": "t01",
+      "rank": 1,
+      "chunk_id": "B-p273-1078-efd82740d4cf1cb7",
+      "page": 273,
+      "section": "6.3",
+      "true_section": "6.3",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "C",
+      "qid": "t01",
+      "rank": 2,
+      "chunk_id": "B-p277-0-6fb90ed9ce7e8cb5",
+      "page": 277,
+      "section": "6.4",
+      "true_section": "6.3",
+      "ok": false,
+      "errors": "section label 6.4 but chunk content lies in 6.3"
+    },
+    {
+      "strategy": "C",
+      "qid": "t01",
+      "rank": 3,
+      "chunk_id": "B-p258-1069-95824b1ac5219a68",
+      "page": 258,
+      "section": "6.2",
+      "true_section": "6.2",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "C",
+      "qid": "t02",
+      "rank": 1,
+      "chunk_id": "B-p283-1991-6e60eefc7c0f0500",
+      "page": 283,
+      "section": "6.4",
+      "true_section": "6.4",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "C",
+      "qid": "t02",
+      "rank": 2,
+      "chunk_id": "B-p277-3300-8abf095c34304d0a",
+      "page": 277,
+      "section": "6.4",
+      "true_section": "6.4",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "C",
+      "qid": "t02",
+      "rank": 3,
+      "chunk_id": "B-p283-0-33649d39df9350ee",
+      "page": 283,
+      "section": "6.4",
+      "true_section": "6.4",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "C",
+      "qid": "t03",
+      "rank": 1,
+      "chunk_id": "B-p261-1553-eb8091341005c36b",
+      "page": 261,
+      "section": "6.2",
+      "true_section": "6.2",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "C",
+      "qid": "t03",
+      "rank": 2,
+      "chunk_id": "B-p260-472-bdb8a119ebefbac1",
+      "page": 260,
+      "section": "6.2",
+      "true_section": "6.2",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "C",
+      "qid": "t03",
+      "rank": 3,
+      "chunk_id": "B-p261-3097-170aa35d659975f4",
+      "page": 261,
+      "section": "6.2",
+      "true_section": "6.2",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "C",
+      "qid": "t04",
+      "rank": 1,
+      "chunk_id": "B-p289-1881-e937760ba9392a3b",
+      "page": 289,
+      "section": "6.6",
+      "true_section": "6.6",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "C",
+      "qid": "t04",
+      "rank": 2,
+      "chunk_id": "B-p289-2587-204d6e3035dea245",
+      "page": 289,
+      "section": "6.6",
+      "true_section": "6.6",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "C",
+      "qid": "t04",
+      "rank": 3,
+      "chunk_id": "B-p291-0-2f433c2a915fd4ed",
+      "page": 291,
+      "section": "6.6",
+      "true_section": "6.6",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "C",
+      "qid": "t05",
+      "rank": 1,
+      "chunk_id": "B-p257-1179-48863a5123592e26",
+      "page": 257,
+      "section": "6.2",
+      "true_section": "6.2",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "C",
+      "qid": "t05",
+      "rank": 2,
+      "chunk_id": "B-p257-385-c51e61cc62ce0766",
+      "page": 257,
+      "section": "6.2",
+      "true_section": "6.2",
+      "ok": true,
+      "errors": ""
+    },
+    {
+      "strategy": "C",
+      "qid": "t05",
+      "rank": 3,
+      "chunk_id": "B-p257-0-875341e6502cca6f",
+      "page": 257,
+      "section": "6.2",
+      "true_section": "6.2",
+      "ok": true,
+      "errors": ""
+    }
+  ],
+  "coherence_material": [
+    {
+      "strategy": "A",
+      "page": 249,
+      "chunk_id": "A-p249-900-2f31f95fd718f218",
+      "text": "ss the security limitations, one of the company’s project managers decides to implement a new mode of protection that supports all of the operating systems the company’s users use, including iOS, Windows, Linux, macOS, and Android. A data scientist working for the company proposes two solutions. The first solution involves integrating an authorization method called two-factor authentication, which you’ll learn more about later in the chapter. This method adds another level of security by asking"
+    },
+    {
+      "strategy": "A",
+      "page": 250,
+      "chunk_id": "A-p250-900-efbb828a316fa6d2",
+      "text": "is the driving force behind Apple computers, ensures tight hardware- software cohesion. Linux, a freely available open-source OS, is acclaimed for its reliability, safety, and adaptability. Linux source code has over 27 million lines of C, while Windows has over 50 million lines. Linux offers a variety of versions or distributions, such as Ubuntu for ease of use, Fedora for the latest features, Debian for stability, and Kali Linux for security tasks. Each version is designed to meet specific ne"
+    },
+    {
+      "strategy": "A",
+      "page": 251,
+      "chunk_id": "A-p251-1350-11d70f7bdb277b86",
+      "text": "s monitoring hardware access, which involves tracking and regulating which applications or users can communicate with the hardware and how they do so. This capability is vital for maintaining a system’s overall integrity and performance. In addition to hardware monitoring, the OS is instrumental in enforcing authentication mechanisms. This means the OS helps verify that only authorized users gain access to certain devices, especially those considered sensitive. By managing user permissions and a"
+    },
+    {
+      "strategy": "A",
+      "page": 252,
+      "chunk_id": "A-p252-900-112d3c5e7d881937",
+      "text": "be reconstructed? Table 6.1 Operating System Design Considerations Efficiency Management By managing system resources (e.g., CPU, memory, disk, and network) efficiently, the OS ensures that no resource is underutilized or overburdened. We start with this question: What level of ease or complexity is involved in developing applications with optimal efficiency on a computer? A well-performing operating system facilitates the development of efficient applications that enhance the user experience by"
+    },
+    {
+      "strategy": "A",
+      "page": 253,
+      "chunk_id": "A-p253-1800-2b7fc54b105fac8f",
+      "text": "cal computer and that operates its operating system and applications like separate physical servers. OS-level virtualization is a basic form of server virtualization. When using OS-level virtualization, there is no need for a hypervisor as the server’s OS handles all resources. Cloud computing leverages server virtualization and makes it possible for users to commission virtual machines. In this case, the servers reside in distributed data centers provided by cloud vendors. Commissioning a virtu"
+    },
+    {
+      "strategy": "A",
+      "page": 254,
+      "chunk_id": "A-p254-1350-a693cb665abd0f6b",
+      "text": "It also consists of address space, one or more threads of control executing in that address space, and an additional system state associated with it. The operating system uses processes to manage the execution of programs, ensuring they have the necessary resources while keeping them separate from each other to prevent interference. Software applications have to be compiled and linked with system libraries before they can run as executable programs on a machine. Each running program runs in its"
+    },
+    {
+      "strategy": "A",
+      "page": 255,
+      "chunk_id": "A-p255-1350-5934ea2eec3ccf67",
+      "text": "iles (i.e., streams) and send messages to the network (i.e., sockets). Programming languages provide application programming interfaces (APIs) that leverage these abstractions (e.g., file I/O, socket libraries, and related APIs) so that the application program can access the underlying resources that are managed by the OS. One of the main responsibilities of the OS is to isolate hardware from programs by providing common services and background management functionality, for example, storage mana"
+    },
+    {
+      "strategy": "A",
+      "page": 256,
+      "chunk_id": "A-p256-900-b710aab59d4f9b20",
+      "text": "uccess of such a model depends on balancing openness with the need for sustainable development and support systems to keep the technology reliable and up to date. Should operating systems all be open source? Discuss pros and cons. Protected Sharing An OS’s functions should guarantee protection, isolation, and the sharing of resources efficiently via resource allocation and communication. To implement protected sharing, the OS provides common services (e.g., sharing and authorization). There are"
+    },
+    {
+      "strategy": "A",
+      "page": 257,
+      "chunk_id": "A-p257-1350-5a5481194592648d",
+      "text": "end user is using multiple applications, such as Chrome, Photoshop, Acrobat, and JVM, which they had previously downloaded in a particular OS. To use these software programs, the user will interact through the OS interface and/or API, which is connected with OS components such as file systems, memory managers, process managers, network supports, device drivers, and interrupt handlers. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license) Process Management and Threads"
+    },
+    {
+      "strategy": "A",
+      "page": 258,
+      "chunk_id": "A-p258-900-d5a5a0eba2d809bf",
+      "text": "sing time More time Less time Resources Needs more resources Needs fewer resources Sharing Mostly isolated Shares memory and data Table 6.2 Process vs Thread Processing A program is passive; it is just bytes on a disk that encode instructions to be run. A process is an instance of a program being executed—or processed—by a processor. Thus, processing involves a program, a process, and a processor. The processor can be a real processor or a virtual processor (i.e., CPU core assigned to a virtual"
+    },
+    {
+      "strategy": "B",
+      "page": 249,
+      "chunk_id": "B-p249-453-1433bdd0fe903bcc",
+      "text": "Introduction TechWorks is a start-up company that is 100% committed to leveraging innovative technologies as part of its repeatable business model and as a business growth facilitator. TechWorks has been suffering for many months from the limitations of its operating system, especially the system’s lack of security, which allows access to unauthorized and unauthenticated users. This problem reflects poorly on the company’s reputation. To address the security limitations, one of the company’s project managers decides to implement a new mode of protection that supports all of the operating systems the company’s users use, including iOS, Windows, Linux, macOS, and Android. A data scientist working for the company proposes two solutions."
+    },
+    {
+      "strategy": "B",
+      "page": 250,
+      "chunk_id": "B-p250-537-020dc01d99d465d3",
+      "text": "Introduction There are many operating systems (OSs), and anyone using a modern computer is using one of them. The typical OSs for computers are Windows, macOS, and Linux and for mobile devices, iOS and Android (Figure 6.2). Microsoft Windows is a popular operating system, celebrated for its ease of use and broad software compatibility. Apple Inc.’s macOS, which is the driving force behind Apple computers, ensures tight hardware- software cohesion. Linux, a freely available open-source OS, is acclaimed for its reliability, safety, and adaptability. Linux source code has over 27 million lines of C, while Windows has over 50 million lines."
+    },
+    {
+      "strategy": "B",
+      "page": 251,
+      "chunk_id": "B-p251-1588-4e04f3a0cec13c32",
+      "text": "In addition to hardware monitoring, the OS is instrumental in enforcing authentication mechanisms. This means the OS helps verify that only authorized users gain access to certain devices, especially those considered sensitive. By managing user permissions and access levels, the OS can prevent unauthorized access to critical hardware resources, safeguarding against potential security breaches or data theft. This aspect of the OS is particularly important in environments where access to information and resources needs to be tightly controlled, such as in corporate or government settings."
+    },
+    {
+      "strategy": "B",
+      "page": 252,
+      "chunk_id": "B-p252-989-45915aefaaca9e73",
+      "text": "By managing system resources (e.g., CPU, memory, disk, and network) efficiently, the OS ensures that no resource is underutilized or overburdened. We start with this question: What level of ease or complexity is involved in developing applications with optimal efficiency on a computer? A well-performing operating system facilitates the development of efficient applications that enhance the user experience by providing faster response times. The OS also impacts user experience positively by managing resource allocation and multitasking efficiently."
+    },
+    {
+      "strategy": "B",
+      "page": 253,
+      "chunk_id": "B-p253-1295-d525c85218118384",
+      "text": "OS-Level and Server Virtualization The ability of a system or server to run different types of applications used by multiple users at a time on the same computer is called virtualization. Server virtualization places a software layer called a hypervisor (i.e., virtual machine monitor, or VMM) between a machine’s (i.e., server’s) hardware and the operating systems that run on it. The hypervisor creates and manages virtual machines. A virtual machine (VM) is software that is created to run like a physical computer and that operates its operating system and applications like separate physical servers. OS-level virtualization is a basic form of server virtualization. When using OS-level virtualization, there is no need for a hypervisor as the server’s OS handles all resources."
+    },
+    {
+      "strategy": "B",
+      "page": 254,
+      "chunk_id": "B-p254-1501-23fde1b3474c2b94",
+      "text": "The operating system uses processes to manage the execution of programs, ensuring they have the necessary resources while keeping them separate from each other to prevent interference. Software applications have to be compiled and linked with system libraries before they can run as executable programs on a machine. Each running program runs in its own process, and the OS can run, switch, and isolate processes from each other even though they are actually running on the same hardware. For a given application, the “machine” is the process abstraction provided by the OS. Processes provide user-friendly interfaces, rather than raw hardware, and an execution environment with restricted rights controlled by the OS."
+    },
+    {
+      "strategy": "B",
+      "page": 255,
+      "chunk_id": "B-p255-1675-fd5be17e7799c421",
+      "text": "One of the main responsibilities of the OS is to isolate hardware from programs by providing common services and background management functionality, for example, storage manager, network manager, and power manager. The OS is the only system that should be able to directly access I/O devices (i.e., disks, network cards) and manipulate memory. Moreover, the CPU hardware provides a privileged instruction that can only be executed by the OS. The OS can use these instructions to establish an execution environment that limits access (to, for example, memory). The application cannot remove the restrictions because it must execute privileged instructions to do so."
+    },
+    {
+      "strategy": "B",
+      "page": 256,
+      "chunk_id": "B-p256-1131-9e6379849f275608",
+      "text": "Protected Sharing An OS’s functions should guarantee protection, isolation, and the sharing of resources efficiently via resource allocation and communication. To implement protected sharing, the OS provides common services (e.g., sharing and authorization). There are many ways to leverage OS sharing. One involves the sharing of processors to perform computations concurrently. In this case, these computations will be completed as if only one processor had been allocated to them although in reality multiple processors are performing the computations/tasks in parallel. An OS also allows a computer’s memory, input and output devices, and files to be shared within the tasks and the processes. It can also allow groups of computers to work together within the network and share resources."
+    },
+    {
+      "strategy": "B",
+      "page": 257,
+      "chunk_id": "B-p257-1179-48863a5123592e26",
+      "text": "For example, in Figure 6.5, the OS interface would be the window into which the Chrome browser opens. Figure 6.5 The operating system and hardware are tightly linked. The end user is using multiple applications, such as Chrome, Photoshop, Acrobat, and JVM, which they had previously downloaded in a particular OS. To use these software programs, the user will interact through the OS interface and/or API, which is connected with OS components such as file systems, memory managers, process managers, network supports, device drivers, and interrupt handlers. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license) Process Management and Threads"
+    },
+    {
+      "strategy": "B",
+      "page": 258,
+      "chunk_id": "B-p258-1069-95824b1ac5219a68",
+      "text": "A program is passive; it is just bytes on a disk that encode instructions to be run. A process is an instance of a program being executed—or processed—by a processor. Thus, processing involves a program, a process, and a processor. The processor can be a real processor or a virtual processor (i.e., CPU core assigned to a virtual machine). At any time, there may be many processes running copies of the same program (e.g., an editor); each process is separate and usually independent. An OS is responsible for managing these processes. Different OSs approach process management in different ways. For example, the Windows operating system’s approach consists of adding an operating system call to create a process and other system calls for process operation."
+    },
+    {
+      "strategy": "C",
+      "page": 249,
+      "chunk_id": "B-p249-453-1433bdd0fe903bcc",
+      "text": "Introduction TechWorks is a start-up company that is 100% committed to leveraging innovative technologies as part of its repeatable business model and as a business growth facilitator. TechWorks has been suffering for many months from the limitations of its operating system, especially the system’s lack of security, which allows access to unauthorized and unauthenticated users. This problem reflects poorly on the company’s reputation. To address the security limitations, one of the company’s project managers decides to implement a new mode of protection that supports all of the operating systems the company’s users use, including iOS, Windows, Linux, macOS, and Android. A data scientist working for the company proposes two solutions."
+    },
+    {
+      "strategy": "C",
+      "page": 250,
+      "chunk_id": "B-p250-537-020dc01d99d465d3",
+      "text": "Introduction There are many operating systems (OSs), and anyone using a modern computer is using one of them. The typical OSs for computers are Windows, macOS, and Linux and for mobile devices, iOS and Android (Figure 6.2). Microsoft Windows is a popular operating system, celebrated for its ease of use and broad software compatibility. Apple Inc.’s macOS, which is the driving force behind Apple computers, ensures tight hardware- software cohesion. Linux, a freely available open-source OS, is acclaimed for its reliability, safety, and adaptability. Linux source code has over 27 million lines of C, while Windows has over 50 million lines."
+    },
+    {
+      "strategy": "C",
+      "page": 251,
+      "chunk_id": "B-p251-1588-4e04f3a0cec13c32",
+      "text": "In addition to hardware monitoring, the OS is instrumental in enforcing authentication mechanisms. This means the OS helps verify that only authorized users gain access to certain devices, especially those considered sensitive. By managing user permissions and access levels, the OS can prevent unauthorized access to critical hardware resources, safeguarding against potential security breaches or data theft. This aspect of the OS is particularly important in environments where access to information and resources needs to be tightly controlled, such as in corporate or government settings."
+    },
+    {
+      "strategy": "C",
+      "page": 252,
+      "chunk_id": "B-p252-989-45915aefaaca9e73",
+      "text": "By managing system resources (e.g., CPU, memory, disk, and network) efficiently, the OS ensures that no resource is underutilized or overburdened. We start with this question: What level of ease or complexity is involved in developing applications with optimal efficiency on a computer? A well-performing operating system facilitates the development of efficient applications that enhance the user experience by providing faster response times. The OS also impacts user experience positively by managing resource allocation and multitasking efficiently."
+    },
+    {
+      "strategy": "C",
+      "page": 253,
+      "chunk_id": "B-p253-1295-d525c85218118384",
+      "text": "OS-Level and Server Virtualization The ability of a system or server to run different types of applications used by multiple users at a time on the same computer is called virtualization. Server virtualization places a software layer called a hypervisor (i.e., virtual machine monitor, or VMM) between a machine’s (i.e., server’s) hardware and the operating systems that run on it. The hypervisor creates and manages virtual machines. A virtual machine (VM) is software that is created to run like a physical computer and that operates its operating system and applications like separate physical servers. OS-level virtualization is a basic form of server virtualization. When using OS-level virtualization, there is no need for a hypervisor as the server’s OS handles all resources."
+    },
+    {
+      "strategy": "C",
+      "page": 254,
+      "chunk_id": "B-p254-1501-23fde1b3474c2b94",
+      "text": "The operating system uses processes to manage the execution of programs, ensuring they have the necessary resources while keeping them separate from each other to prevent interference. Software applications have to be compiled and linked with system libraries before they can run as executable programs on a machine. Each running program runs in its own process, and the OS can run, switch, and isolate processes from each other even though they are actually running on the same hardware. For a given application, the “machine” is the process abstraction provided by the OS. Processes provide user-friendly interfaces, rather than raw hardware, and an execution environment with restricted rights controlled by the OS."
+    },
+    {
+      "strategy": "C",
+      "page": 255,
+      "chunk_id": "B-p255-1675-fd5be17e7799c421",
+      "text": "One of the main responsibilities of the OS is to isolate hardware from programs by providing common services and background management functionality, for example, storage manager, network manager, and power manager. The OS is the only system that should be able to directly access I/O devices (i.e., disks, network cards) and manipulate memory. Moreover, the CPU hardware provides a privileged instruction that can only be executed by the OS. The OS can use these instructions to establish an execution environment that limits access (to, for example, memory). The application cannot remove the restrictions because it must execute privileged instructions to do so."
+    },
+    {
+      "strategy": "C",
+      "page": 256,
+      "chunk_id": "B-p256-1131-9e6379849f275608",
+      "text": "Protected Sharing An OS’s functions should guarantee protection, isolation, and the sharing of resources efficiently via resource allocation and communication. To implement protected sharing, the OS provides common services (e.g., sharing and authorization). There are many ways to leverage OS sharing. One involves the sharing of processors to perform computations concurrently. In this case, these computations will be completed as if only one processor had been allocated to them although in reality multiple processors are performing the computations/tasks in parallel. An OS also allows a computer’s memory, input and output devices, and files to be shared within the tasks and the processes. It can also allow groups of computers to work together within the network and share resources."
+    },
+    {
+      "strategy": "C",
+      "page": 257,
+      "chunk_id": "B-p257-1179-48863a5123592e26",
+      "text": "For example, in Figure 6.5, the OS interface would be the window into which the Chrome browser opens. Figure 6.5 The operating system and hardware are tightly linked. The end user is using multiple applications, such as Chrome, Photoshop, Acrobat, and JVM, which they had previously downloaded in a particular OS. To use these software programs, the user will interact through the OS interface and/or API, which is connected with OS components such as file systems, memory managers, process managers, network supports, device drivers, and interrupt handlers. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license) Process Management and Threads"
+    },
+    {
+      "strategy": "C",
+      "page": 258,
+      "chunk_id": "B-p258-1069-95824b1ac5219a68",
+      "text": "A program is passive; it is just bytes on a disk that encode instructions to be run. A process is an instance of a program being executed—or processed—by a processor. Thus, processing involves a program, a process, and a processor. The processor can be a real processor or a virtual processor (i.e., CPU core assigned to a virtual machine). At any time, there may be many processes running copies of the same program (e.g., an editor); each process is separate and usually independent. An OS is responsible for managing these processes. Different OSs approach process management in different ways. For example, the Windows operating system’s approach consists of adding an operating system call to create a process and other system calls for process operation."
+    }
+  ]
+}

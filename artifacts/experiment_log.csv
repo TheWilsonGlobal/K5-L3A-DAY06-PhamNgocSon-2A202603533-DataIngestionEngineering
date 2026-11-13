@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed-size characters,500,50,"document_id,source,page,section",none,paraphrase-multilingual-MiniLM-L12-v2 (384d; cosine; exact),Fixed windows cut sentences/evidence in half so Hit@3 will be lowest,5/16,8/16,4/6,4/6,319 chunks; 20 chunks >128 tokens; 12.4s ingest; coherence 0.80/2; grounding 1.40/2
+B,heading/paragraph-aware,<=800,0 (none),"document_id,source,page,section",none,same as A,Whole paragraphs keep evidence intact so Hit@3 dev will beat A (only chunking changes vs A),10/16,14/16,2/6,5/6,242 chunks; 135 chunks >128 tokens (embedding truncates the tail); 8.8s ingest; coherence 1.90/2; grounding 2.00/2
+C,same chunks as B (index reused),<=800,0 (none),"document_id,source,page,section","section = (given in question)",same as A,Filtering by the supplied section removes wrong-section distractors (only the filter changes vs B; 5/22 questions have a filter),10/16,14/16,3/6,5/6,0s extra ingest; filter compliance 5/5 (test 2/2); 3 dev questions changed rank of non-gold hits only

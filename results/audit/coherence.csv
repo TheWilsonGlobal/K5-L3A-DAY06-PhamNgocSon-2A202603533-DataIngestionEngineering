@@ -1,0 +1,31 @@
+strategy,page,chunk_id,score_0_2,reason
+A,249,A-p249-900-2f31f95fd718f218,0,starts mid-word ('ss the security...') and stops at 'by asking': the two-factor idea is cut off
+A,250,A-p250-900-efbb828a316fa6d2,1,"starts mid-sentence, ends mid-word 'ne'; gist about OS families understandable"
+A,251,A-p251-1350-11d70f7bdb277b86,1,"starts mid-word ('s monitoring...'), ends 'access levels and a'; gist ok, context missing"
+A,252,A-p252-900-112d3c5e7d881937,1,table tail + heading + paragraph cut mid-sentence; mixes two topics
+A,253,A-p253-1800-2b7fc54b105fac8f,1,"starts mid-sentence ('cal computer and...'), ends mid-word; VM idea partly there"
+A,254,A-p254-1350-a693cb665abd0f6b,0,starts 'It also consists of address space' with unresolved 'It'; ends mid-sentence
+A,255,A-p255-1350-5934ea2eec3ccf67,1,"starts mid-word ('iles (i.e., streams)'); abstractions idea understandable"
+A,256,A-p256-900-b710aab59d4f9b20,1,"ends open-source discussion and starts 'Protected Sharing', cut mid-sentence at both ends"
+A,257,A-p257-1350-5a5481194592648d,1,"starts mid-word, ends with dangling heading 'Process Management and Threads'"
+A,258,A-p258-900-d5a5a0eba2d809bf,1,table fragment then definition; cut mid-sentence at both ends
+B,249,B-p249-453-1433bdd0fe903bcc,2,"whole introduction paragraph(s), self-contained (stops before the two solutions)"
+B,250,B-p250-537-020dc01d99d465d3,2,heading + complete paragraph about OS families
+B,251,B-p251-1588-4e04f3a0cec13c32,2,complete paragraph on authentication; lacks the heading 'Monitoring Access' but readable
+B,252,B-p252-989-45915aefaaca9e73,2,complete paragraph; heading sits in previous chunk but the content stands alone
+B,253,B-p253-1295-d525c85218118384,2,"heading + virtualization definitions, whole paragraph kept"
+B,254,B-p254-1501-23fde1b3474c2b94,2,complete paragraph about processes
+B,255,B-p255-1675-fd5be17e7799c421,2,complete paragraph about isolating hardware from programs
+B,256,B-p256-1131-9e6379849f275608,2,heading + complete 'Protected Sharing' paragraph
+B,257,B-p257-1179-48863a5123592e26,1,"starts with 'For example, in Figure 6.5' (refers to a sentence in previous chunk) and ends with a dangling heading"
+B,258,B-p258-1069-95824b1ac5219a68,2,complete definitions of program/process/processor
+C,249,B-p249-453-1433bdd0fe903bcc,2,"whole introduction paragraph(s), self-contained (stops before the two solutions)"
+C,250,B-p250-537-020dc01d99d465d3,2,heading + complete paragraph about OS families
+C,251,B-p251-1588-4e04f3a0cec13c32,2,complete paragraph on authentication; lacks the heading 'Monitoring Access' but readable
+C,252,B-p252-989-45915aefaaca9e73,2,complete paragraph; heading sits in previous chunk but the content stands alone
+C,253,B-p253-1295-d525c85218118384,2,"heading + virtualization definitions, whole paragraph kept"
+C,254,B-p254-1501-23fde1b3474c2b94,2,complete paragraph about processes
+C,255,B-p255-1675-fd5be17e7799c421,2,complete paragraph about isolating hardware from programs
+C,256,B-p256-1131-9e6379849f275608,2,heading + complete 'Protected Sharing' paragraph
+C,257,B-p257-1179-48863a5123592e26,1,"starts with 'For example, in Figure 6.5' (refers to a sentence in previous chunk) and ends with a dangling heading"
+C,258,B-p258-1069-95824b1ac5219a68,2,complete definitions of program/process/processor

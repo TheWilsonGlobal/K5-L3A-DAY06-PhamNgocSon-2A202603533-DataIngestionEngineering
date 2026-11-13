@@ -1,0 +1,16 @@
+strategy,qid,score_0_2,reason
+A,t01,0,chunk 1 is the right passage but is cut right before 'zombie state'; the definition is not in top-3
+A,t02,2,top-1/2 define thrashing and its cause (definition cut at the very end of chunk 1 but sufficient)
+A,t03,2,top-1 lists status/command/data registers with descriptions
+A,t04,1,chunk 3 starts the right sentence but is cut before 'simple in programming and small in size'; condition missing
+A,t05,2,top-1 states GUI or command line (DOS)
+B,t01,2,top-1 holds the complete zombie-state sentence and the process-table explanation
+B,t02,2,chunk 3 gives the cycle 'more time moving data than executing processes' + cause; chunk 1 explains the effect
+B,t03,2,top-1 states the three register types
+B,t04,2,chunk 3 contains the full access-enforcement sentence with the 'simple and small' requirement
+B,t05,2,"rank-2 chunk contains 'or a command line (e.g., DOS)'; rank 1 gives surrounding context"
+C,t01,2,same chunks as B
+C,t02,2,filter keeps the thrashing chunks from 6.4; evidence sufficient
+C,t03,2,same chunks as B
+C,t04,2,same chunks as B (all already in 6.6)
+C,t05,2,same chunks as B

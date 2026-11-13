@@ -9,7 +9,9 @@ services:
       - "127.0.0.1:55433:5432"
     volumes:
       - pg_data:/var/lib/postgresql/data
-      - ./init.sql:/docker-entrypoint-initdb.d/01-vector.sql:ro
+      # init.sql bind mount removed: Docker Desktop on this machine rejects the
+      # single-file mount ("invalid volume specification"). PgVectorStore.create_schema()
+      # runs CREATE EXTENSION IF NOT EXISTS vector instead (same effect).
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U day6 -d day6_lab"]
       interval: 3s

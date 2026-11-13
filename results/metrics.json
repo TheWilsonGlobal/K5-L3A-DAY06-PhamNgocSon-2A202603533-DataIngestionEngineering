@@ -1,0 +1,74 @@
+{
+  "metrics": {
+    "A/all": {
+      "n": 22,
+      "hit1": 9,
+      "hit3": 12,
+      "hit1_rate": 0.4091,
+      "hit3_rate": 0.5455
+    },
+    "A/dev": {
+      "n": 16,
+      "hit1": 5,
+      "hit3": 8,
+      "hit1_rate": 0.3125,
+      "hit3_rate": 0.5
+    },
+    "A/test": {
+      "n": 6,
+      "hit1": 4,
+      "hit3": 4,
+      "hit1_rate": 0.6667,
+      "hit3_rate": 0.6667
+    },
+    "B/all": {
+      "n": 22,
+      "hit1": 12,
+      "hit3": 19,
+      "hit1_rate": 0.5455,
+      "hit3_rate": 0.8636
+    },
+    "B/dev": {
+      "n": 16,
+      "hit1": 10,
+      "hit3": 14,
+      "hit1_rate": 0.625,
+      "hit3_rate": 0.875
+    },
+    "B/test": {
+      "n": 6,
+      "hit1": 2,
+      "hit3": 5,
+      "hit1_rate": 0.3333,
+      "hit3_rate": 0.8333
+    },
+    "C/all": {
+      "n": 22,
+      "hit1": 13,
+      "hit3": 19,
+      "hit1_rate": 0.5909,
+      "hit3_rate": 0.8636
+    },
+    "C/dev": {
+      "n": 16,
+      "hit1": 10,
+      "hit3": 14,
+      "hit1_rate": 0.625,
+      "hit3_rate": 0.875
+    },
+    "C/test": {
+      "n": 6,
+      "hit1": 3,
+      "hit3": 5,
+      "hit1_rate": 0.5,
+      "hit3_rate": 0.8333
+    }
+  },
+  "search_seconds_22_queries": {
+    "A": 2.86,
+    "B": 2.71,
+    "C": 2.57
+  },
+  "top_k": 3,
+  "metric": "cosine, exact search (no ANN index)"
+}

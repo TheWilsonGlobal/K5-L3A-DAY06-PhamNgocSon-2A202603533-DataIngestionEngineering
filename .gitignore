@@ -8,3 +8,7 @@ __pycache__/
 .DS_Store
 .pytest_cache/
 *.sqlite
+
+# Day06 lab: source PDF is CC BY-NC-SA and 56 MB - download it with the URL in data/manifest.json
+data/raw/
+*.pdf

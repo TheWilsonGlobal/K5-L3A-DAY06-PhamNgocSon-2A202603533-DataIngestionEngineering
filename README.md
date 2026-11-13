@@ -45,3 +45,25 @@ Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **1
 | Cách nộp bài | [SUBMISSION.md](SUBMISSION.md) |
 
 [data/format-example.json](data/format-example.json) chỉ minh họa định dạng, không phải corpus đủ điều kiện. Phần xử lý và benchmark do bạn tự hiện thực; không bắt buộc xây chatbot.
+
+---
+
+## Bài làm: cách chạy lại (Phạm Ngọc Sơn · 2A202603533)
+
+Corpus: OpenStax *Introduction to Computer Science*, Chương 6 (PDF trang 249–294). Model: `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` (CPU). Store: PostgreSQL 16 + pgvector 0.8.7, cosine, exact. Báo cáo: [report/individual/2A202603533_PhamNgocSon.md](report/individual/2A202603533_PhamNgocSon.md).
+
+```powershell
+cd starter
+python -m venv .venv ; .\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+Copy-Item .env.example .env
+docker compose -p day6_student_starter up -d --wait      # extension `vector` được tạo bởi create_schema()
+# tải PDF (không commit): URL trong data/manifest.json  ->  data/raw/intro-cs.pdf
+python scripts/build_corpus.py          # data/pages.jsonl + data/manifest.json + results/errors.log
+python scripts/validate_benchmark.py    # kiểm tra 22 câu + evidence
+python -m src.run                       # ingest A/B, nạp lại, chạy A/B/C -> results/*.json(l)
+python scripts/analyze.py ; python scripts/write_audit.py ; python scripts/summary.py
+python -m unittest discover -s tests ; python scripts/test_reingest.py
+```
+
+Thay đổi so với starter: bỏ bind-mount `init.sql` khỏi `docker-compose.yml` (Docker Desktop trên máy này báo `invalid volume specification`); thay bằng `CREATE EXTENSION IF NOT EXISTS vector` trong `PgVectorStore.create_schema()`.
